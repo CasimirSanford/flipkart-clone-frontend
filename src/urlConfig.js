@@ -1,4 +1,5 @@
-export const api = "http://localhost:5000/api";
+export const api = "https://flipkart-clone-backend-b9b4.onrender.com/api";
+
 export const generatePublicUrl = (fileName) => {
-  return `http://localhost:5000/public/${fileName}`;
+  return `https://flipkart-clone-backend-b9b4.onrender.com/public/${fileName}`;
 };
